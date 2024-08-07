@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Work_Sans } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
+const work_Sans = Work_Sans({ subsets: ["latin"], weight: ['400', '700'], variable: '--Work-Sans' });
 
 export const metadata: Metadata = {
   title: "AyoDesign",
